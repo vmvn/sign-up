@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf")
+}
+
+html {
+  background-color: rgb(245,245,245);
+}
+
+html * {max-height:1000000px; font-family: Roboto}
+
+.sidebar {
+  background-image: url("./halie-west-unsplash.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.odin {
+  color: white;
+  font-family: "Norse Bold";
+  font-size: 60px;
+}
+
+.background {
+  background-color: rgba(24,24,24,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  padding: 20px 130px;
+}
+
+.logo {
+  height: 80px;
+}
+
+.text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  gap: 50px
+}
+
+input {
+  display: block;
+  font-size: 18px;
+  border: 2px solid #E5E7EB;
+  border-radius: 5px;
+  height: 25px;
+}
+
+input:invalid {
+  border-color: red !important;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid blue !important;
+  box-shadow: 0 0 4px rgba(143,143,143,0.51);
+}
+
+.container {
+  background-color: white;
+  box-shadow: 0 7px 4px -4px rgb(200,200,200);
+  padding: 0.05px 0 30px 30px;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 30px;
+  margin: 30px;
+}
+
+.main {
+  padding-top: 100px;
+}
+
+.login {
+  padding-left: 30px;
+}
